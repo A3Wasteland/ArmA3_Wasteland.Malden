@@ -10,33 +10,34 @@
 // Name, Building Position, Desk Direction (or [Desk Direction, Front Offset]), Excluded Buttons
 storeOwnerConfig = compileFinal str
 [
-	["GenStore1", 6, 240, []],
-	["GenStore2", 6, 250, []],
-	["GenStore3", 6, 45, []],
-	["GenStore4", 0, 265, []],
-	["GenStore5", 5, 350, []],
+	["GenStore1", -1, [], []],
+	["GenStore2", -1, [], []],
+	["GenStore3", -1, [], []],
+	["GenStore4", -1, [], []],
+	["GenStore5", -1, [], []],
+	["GenStore6", -1, [], []],
 
-	["GunStore1", 1, 0, []],
-	["GunStore2", 1, 75, []],
-	["GunStore3", 6, 135, []],
-	["GunStore4", 1, 65, []],
+	["GunStore1", -1, [], []],
+	["GunStore2", -1, [], []],
+	["GunStore3", -1, [], []],
+	["GunStore4", -1, [], []],
 
 	// Buttons you can disable: "Land", "Armored", "Tanks", "Helicopters", "Boats", "Planes"
-	["VehStore1", 1, 75, []],
-	["VehStore2", 6, 45, ["Boats"]],
-	["VehStore3", 4, 250, ["Boats"]],
-	["VehStore4", 5, 155, ["Boats"]],
-	["VehStore5", 0, 190, ["Planes"]]
+	["VehStore1", -1, [], ["Boats"]],
+	["VehStore2", -1, [], ["Boats"]],
+	["VehStore3", -1, [], []],
+	["VehStore4", -1, [], ["Planes"]]
 ];
 
 // Outfits for store owners
 storeOwnerConfigAppearance = compileFinal str
 [
-	["GenStore1", [["weapon", ""], ["uniform", "U_IG_Guerilla2_2"]]],
-	["GenStore2", [["weapon", ""], ["uniform", "U_IG_Guerilla2_3"]]],
+	["GenStore1", [["weapon", ""], ["uniform", "U_IG_Guerilla3_2"]]],
+	["GenStore2", [["weapon", ""], ["uniform", "U_IG_Guerilla2_1"]]],
 	["GenStore3", [["weapon", ""], ["uniform", "U_IG_Guerilla3_1"]]],
-	["GenStore4", [["weapon", ""], ["uniform", "U_IG_Guerilla2_1"]]],
-	["GenStore5", [["weapon", ""], ["uniform", "U_IG_Guerilla3_2"]]],
+	["GenStore4", [["weapon", ""], ["uniform", "U_IG_Guerilla1_1"]]],
+	["GenStore5", [["weapon", ""], ["uniform", "U_IG_Guerilla2_3"]]],
+	["GenStore5", [["weapon", ""], ["uniform", "U_IG_Guerilla2_2"]]],
 
 	["GunStore1", [["weapon", ""], ["uniform", "U_B_SpecopsUniform_sgg"]]],
 	["GunStore2", [["weapon", ""], ["uniform", "U_O_SpecopsUniform_blk"]]],
@@ -46,6 +47,5 @@ storeOwnerConfigAppearance = compileFinal str
 	["VehStore1", [["weapon", ""], ["uniform", "U_Competitor"]]],
 	["VehStore2", [["weapon", ""], ["uniform", "U_Competitor"]]],
 	["VehStore3", [["weapon", ""], ["uniform", "U_Competitor"]]],
-	["VehStore4", [["weapon", ""], ["uniform", "U_Competitor"]]],
-	["VehStore5", [["weapon", ""], ["uniform", "U_Competitor"]]]
+	["VehStore4", [["weapon", ""], ["uniform", "U_Competitor"]]]
 ];
