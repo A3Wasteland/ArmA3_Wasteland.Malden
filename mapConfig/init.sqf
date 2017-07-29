@@ -5,3 +5,5 @@
 //	@file Author: AgentRev
 
 // you can put custom map-specific code in here, like scripted buildings and such
+
+#include "maldenBridge.sqf"
