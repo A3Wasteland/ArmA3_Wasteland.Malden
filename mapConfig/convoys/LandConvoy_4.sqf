@@ -9,9 +9,9 @@
 // starting positions for this route
 _starts =
 [
-	[3051.8,8461.27],
-	[3063.16,8471.52],
-	[3074.81,8482.03]
+	[3036.92,8434.63],
+	[3040.29,8447.53],
+	[3045.79,8460.07]
 ];
 
 // starting directions in which the vehicles are spawned on this route
