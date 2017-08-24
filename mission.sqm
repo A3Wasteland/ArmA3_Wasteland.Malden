@@ -3495,7 +3495,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3098.3435,224.61964,6374.1733};
+						position[]={3096.8608,225.01123,6366.0254};
 						angles[]={0,1.795692,0};
 					};
 					side="Civilian";
@@ -5192,7 +5192,7 @@ class Mission
 		class Item209
 		{
 			dataType="Marker";
-			position[]={3109.1792,224.34476,6371.894};
+			position[]={3107.354,224.32823,6363.645};
 			name="GunStore4_objSpawn";
 			type="Empty";
 			colorName="ColorBlack";
